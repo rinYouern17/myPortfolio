@@ -10,7 +10,7 @@
                     </button>
                 </div>
             </div>
-            <ul class="px-4 sm:py-16 xl:pr-16 grid grid-cols-1 gap-6 pt-10 sm:grid-cols-2 md:gap-10 md:pt-12 lg:grid-cols-3"
+            <div class="px-4 sm:py-16 xl:pr-16 grid grid-cols-1 gap-6 pt-10 sm:grid-cols-2 md:gap-10 md:pt-12 lg:grid-cols-3"
                 data-aos="fade-right">
                 <div v-for="project in filteredProjects" :key="project.id">
                     <div class="h-52 md:h-[24rem] rounded-t-xl relative group"
@@ -52,7 +52,7 @@
                     </div>
                 </div>
                 </div>
-            </ul>
+            </div>
         </div>
     </section>
 </template>
