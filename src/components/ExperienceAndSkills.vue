@@ -55,33 +55,53 @@ const Skills =ref([
     },
     {
         id:2,
-        name:'Python',
+        name:'Node Js',
         width:'70%'
     },
     {
         id:3,
         name:'JavaScript',
-        width:'98%'
+        width:'70%'
     },
     {
         id:4,
-        name:'figma',
-        width:'91%'
+        name:'MySql & SQL Server',
+        width:'70%'
+    },
+    {
+        id:5,
+        name:'PHP',
+        width:'65%'
+    },
+    {
+        id:6,
+        name:'Laravel',
+        width:'65%'
+    },
+    {
+        id:7,
+        name:'Vue Js & React Js',
+        width:'75%'
+    },
+    {
+        id:8,
+        name:'Bootstrap & Tailwind CSS',
+        width:'70%'
     },
 ]);
 
 const Experinces =ref([
     {
         id:1,
-        role:'Software Engineer',
-        company:'Microsoft',
-        date:'Mar 2023 - September 2024'
+        role:'Web Developer',
+        company:'Vireak Buntham Express',
+        date:'07, December 2024 - Present'
     },
     {
         id:2,
-        role:'Frontend Developer',
-        company:'Spotify',
-        date:'Mar 2022 - September 2023'
+        role:'Application Developer',
+        company:'Dai-ichi Life',
+        date:'01, August - 30, September 2024'
     },
 ])
 </script>

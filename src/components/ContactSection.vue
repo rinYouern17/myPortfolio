@@ -3,11 +3,7 @@
         <h2 class="text-4xl font-bold text-white text-left mb-4 px-4 xl:pl-16">Let's Connect</h2>
         <div class="grid md:grid-cols-2 gap-4 relative px-4 xl:px-16 mt-8" data-aos="zoom-in-up">
             <div>
-                <p class="text-[#adb7be]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta alias
-                    quibusdam officia at,
-                    a quis cumque ea aperiam omnis minima quam. Modi necessitatibus odit corporis at dolorem quae iusto
-                    aliquam?
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, porro!
+                <p class="text-[#adb7be]">I would love to discuss how we can collaborate and help your business grow. Whether you need assistance with marketing strategies, operational improvements, or any other aspect of your business, I’m here to support you. Let’s set up a time to chat and explore the possibilities.
                 </p>
                 <div class="col-lg-4 col-md-4 mb-lg-0 mt-5">
                     <div class="flex mb-10 items-center">

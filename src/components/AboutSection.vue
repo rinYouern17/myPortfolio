@@ -28,24 +28,21 @@
                     <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">About</span>
                     Me
                 </h2>
-                <p class="text-base lg:text-lg mt-8 py-8"> Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                     Qui facere libero cupiditate fugit minima voluptates numquam est eos voluptate saepe
-                      eius amet harum provident accusamus omnis sit in cum incidunt dolorum, necessitatibus 
-                      illo reiciendis ipsam debitis velit! Itaque officia architecto fugit, cum dolorum eos dolore 
-                      quaerat quis nobis id similique!
+                <p class="text-base lg:text-lg mt-8 py-8">
+                     From my experience, I have worked on and completed several projects, including the Pet Shop website using HTML, CSS, and SASS, a POS System with HTML, CSS, and JavaScript, an LMS System utilizing PHP and MySQL, an Airline Management System developed with OOP Typescript, and the Easy Travel project using Laravel, Vue.js, and MySQL. Additionally, I completed an internship at Dai-ichi Life Insurance (Cambodia) Plc as an Application Developer (Core and MIS). During my internship, I used SQL Server and Report Builder to develop reports for business users and supported the maintenance of the MIS, significantly improving my technical skills and practical experience.
                 </p>
                 <div class="grid grid-cols-3 gap-4 max-w-lg pt-8">
                     <div class="text-center rounded-xl bg-[#111a3e] shadow-lg border border-[#1f1641] p-3">
-                        <h3 class="text-white font-bold text-xl sm:text-2xl lg:text-3xl">+200</h3>
-                        <p class="text-sm sm:text-base text-gray-300">Happy Client</p>
+                        <h3 class="text-white font-bold text-xl sm:text-2xl lg:text-3xl">+1</h3>
+                        <p class="text-sm sm:text-base text-gray-300">Company</p>
                     </div>
                     <div class="text-center rounded-xl bg-[#111a3e] shadow-lg border border-[#1f1641] p-3">
-                        <h3 class="text-white font-bold text-xl sm:text-2xl lg:text-3xl">+300</h3>
+                        <h3 class="text-white font-bold text-xl sm:text-2xl lg:text-3xl">+5</h3>
                         <p class="text-sm sm:text-base text-gray-300">Project</p>
                     </div>
 
                     <div class="text-center rounded-xl bg-[#111a3e] shadow-lg border border-[#1f1641] p-3">
-                        <h3 class="text-white font-bold text-xl sm:text-2xl lg:text-3xl">+7</h3>
+                        <h3 class="text-white font-bold text-xl sm:text-2xl lg:text-3xl">+1</h3>
                         <p class="text-sm sm:text-base text-gray-300"> Years Experience</p>
                     </div>
                 </div>
@@ -58,15 +55,15 @@ import { ref } from 'vue';
 const education=ref([
     {
         id:1,
-        School:'school 1',
-        program:'Software Engineer',
-        year:'2022'
+        School:'Association Degree',
+        program:'Passerelles numériques Cambodia',
+        year:'2023-2025'
     },
     {
         id:2,
-        School:'school 2',
-        program:'Software Engineer',
-        year:'2020'
+        School:'BacII Certifica ',
+        program:'Banteay Chhmar High School',
+        year:'2019 - 2022'
     }
 ])
 </script>

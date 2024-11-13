@@ -15,9 +15,7 @@
                         </h1>
                     </div>
                     <p class="text-gray-300 pt-8 text-center lg:text-left mx-auto max-w-xl">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                         Explicabo eius laboriosam ratione corporis tempore facilis, 
-                         laborum, debitis dolorem accusamus accusantium modi obcaecati? 
+                        Explore my journey through showcased projects and experiences. Discover my skills, get inspired, and let’s discuss potential collaborations. Feel free to browse and reach out with any questions or opportunities. Together, we can create something amazing!
                     </p>
                     <div class="flex items-center gap-3 pt-9 flex-col sm:flex-row sm:w-max sm:mx-auto lg:mx-0">
                         <button class="px-6 md:px-7 py-3 rounded-full relative group w-full sm:w-max flex justify-center">

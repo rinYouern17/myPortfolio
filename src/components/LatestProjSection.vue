@@ -4,7 +4,7 @@
             <div class="mb-4 md:flex md:justify-between xl:pr-16">
                 <h2 class="text-4xl font-bold text-white"> My Latest Projects</h2>
                 <div class="flex space-x-4 mb-4 mt-5 md:mt-0">
-                    <button class="hover:text-primary" v-for="category in ['all', 'web development', 'Mobile App']"
+                    <button class="hover:text-primary" v-for="category in ['all', 'web development', 'System']"
                         :key="category" @click="() => selectedCategory = category">
                         {{ category }}
                     </button>
@@ -63,63 +63,53 @@ const Projects = ref([
     {
         id: 1,
         category: 'web development',
-        image: 'src/assets/project.png',
-        title: 'project 1',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic tenetur quasi ipsam labore sapiente, accusamus necessitatibus laboriosam non voluptas inventore deserunt dolore modi ex, praesentium at provident nihil magni ratione!',
-        technologies: ['vue.js 3', 'vuex', 'Express'],
+        image: 'src/assets/petshop.jpg',
+        title: 'Pet Shop',
+        description: 'A pet shop sells pets like dogs, cats, birds, fish, and small mammals. They also offer supplies such as food, toys, grooming items, cages, and aquariums. Some pet shops provide extra services like grooming, training, and boarding to help care for pets.',
+        technologies: ['HTML', 'CSS', 'SASS'],
         gitURL: '',
         webURL: ''
     },
     {
         id: 2,
-        category: 'Mobile App',
-        image: 'src/assets/mobile.jpg',
-        title: 'project 1',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic tenetur quasi ipsam labore sapiente, accusamus necessitatibus laboriosam non voluptas inventore deserunt dolore modi ex, praesentium at provident nihil magni ratione!',
-        technologies: ['vue.js 3', 'vuex', 'Express'],
+        category: 'System',
+        image: 'src/assets/POS.jpg',
+        title: 'POS system',
+        description: 'A POS system (Point of Sale system) manages sales transactions. It includes hardware like cash registers and barcode scanners, and software for tracking sales and inventory. POS systems streamline operations, support various payment methods, and enhance customer service.',
+        technologies: ['HTML', 'CSS', 'JAVASCRIPT'],
         gitURL: '',
         webURL: ''
     },
     {
         id: 3,
-        category: 'web development',
-        image: 'src/assets/project.png',
-        title: 'project 1',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic tenetur quasi ipsam labore sapiente, accusamus necessitatibus laboriosam non voluptas inventore deserunt dolore modi ex, praesentium at provident nihil magni ratione!',
-        technologies: ['vue.js 3', 'vuex', 'Express'],
+        category: 'System',
+        image: 'src/assets/LMS.jpg',
+        title: 'LMS System',
+        description: 'LMS system (Learning Management System) is software used to manage, deliver, and track educational courses or training programs. It helps in organizing learning materials, automating administrative tasks, and providing analytics on learner progress.',
+        technologies: ['PHP', 'Bootstrap', 'MySQL'],
         gitURL: '',
         webURL: ''
     },
     {
         id: 4,
-        category: 'Mobile App',
-        image: 'src/assets/mobile.jpg',
-        title: 'project 1',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic tenetur quasi ipsam labore sapiente, accusamus necessitatibus laboriosam non voluptas inventore deserunt dolore modi ex, praesentium at provident nihil magni ratione!',
-        technologies: ['vue.js 3', 'vuex', 'Express'],
+        category: 'web development',
+        image: 'src/assets/ALM.jpg',
+        title: 'Airline Management System',
+        description: 'An Airline Management System is software that handles airline operations like flight scheduling, ticket reservations, crew management, and maintenance tracking. It optimizes operations, improves efficiency, and enhances passenger experience with real-time data and automation.',
+        technologies: ['OOP'],
         gitURL: '',
         webURL: ''
     },
     {
         id: 5,
         category: 'web development',
-        image: 'src/assets/project.png',
-        title: 'project 1',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic tenetur quasi ipsam labore sapiente, accusamus necessitatibus laboriosam non voluptas inventore deserunt dolore modi ex, praesentium at provident nihil magni ratione!',
-        technologies: ['vue.js 3', 'vuex', 'Express'],
+        image: 'src/assets/et.jpg',
+        title: 'Easy Travel',
+        description: 'Easy Travel simplifies trip planning by offering booking services for hotels and vehicles. It also allows users to view and choose places to visit. This all-in-one platform helps travelers organize their trips efficiently, ensuring a smooth and enjoyable travel experience.',
+        technologies: ['Laravel', 'Vue Js', 'Bootstrap' ,'MySQL'],
         gitURL: '',
         webURL: ''
     },
-    {
-        id: 6,
-        category: 'Mobile App',
-        image: 'src/assets/mobile.jpg',
-        title: 'project 1',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic tenetur quasi ipsam labore sapiente, accusamus necessitatibus laboriosam non voluptas inventore deserunt dolore modi ex, praesentium at provident nihil magni ratione!',
-        technologies: ['vue.js 3', 'vuex', 'Express'],
-        gitURL: '',
-        webURL: ''
-    }
 ]);
 
 const selectedCategory = ref('all');
