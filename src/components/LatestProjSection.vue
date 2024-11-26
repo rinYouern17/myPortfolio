@@ -73,7 +73,7 @@ const Projects = ref([
     {
         id: 2,
         category: 'System',
-        image: 'src/assets/POS.jpg',
+        image: 'src/assets/pos.jpg',
         title: 'POS system',
         description: 'A POS system (Point of Sale system) manages sales transactions. It includes hardware like cash registers and barcode scanners, and software for tracking sales and inventory. POS systems streamline operations, support various payment methods, and enhance customer service.',
         technologies: ['HTML', 'CSS', 'JAVASCRIPT'],
@@ -83,7 +83,7 @@ const Projects = ref([
     {
         id: 3,
         category: 'System',
-        image: 'src/assets/LMS.jpg',
+        image: 'src/assets/lms.jpg',
         title: 'LMS System',
         description: 'LMS system (Learning Management System) is software used to manage, deliver, and track educational courses or training programs. It helps in organizing learning materials, automating administrative tasks, and providing analytics on learner progress.',
         technologies: ['PHP', 'Bootstrap', 'MySQL'],
@@ -93,7 +93,7 @@ const Projects = ref([
     {
         id: 4,
         category: 'web development',
-        image: 'src/assets/ALM.jpg',
+        image: 'src/assets/ams.jpg',
         title: 'Airline Management System',
         description: 'An Airline Management System is software that handles airline operations like flight scheduling, ticket reservations, crew management, and maintenance tracking. It optimizes operations, improves efficiency, and enhances passenger experience with real-time data and automation.',
         technologies: ['OOP'],
